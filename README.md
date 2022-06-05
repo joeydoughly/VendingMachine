@@ -1,6 +1,6 @@
 # VendingMachine
 # Introduction 
-Vending Machine, that contains 3 products Soda, Candy Bars, and Chips for sale. Items can be purchased and returned and each transaction is recorded in a ledger. Ledger can be viewed in whole or by single transaction based on the transaction Id.
+Vending Machine application that contains 3 products Soda, Candy Bars, and Chips for sale. Items can be purchased and returned and each transaction is recorded in a ledger. Ledger can be viewed in whole or by single transaction based on the transaction Id.
 
 # Getting Started
 ## Dependencies
