@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Logging;
 using Moq;
 using VendingMachine2.Models;
 using VendingMachine2.Repository;
@@ -27,7 +28,7 @@ namespace VendingMachine2Tests
                 Quantity = 2
             };
 
-            _vendingServices = new VendingServices(_chipsProduct, _ledgerRepo.Object, _purchaseInfo);
+            _vendingServices = new VendingServices(_ledgerRepo.Object, _purchaseInfo, Mock.Of<ILogger<VendingServices>>());
         }
 
         [Fact]
